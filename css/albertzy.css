@@ -1,0 +1,75 @@
+/* azy css */
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    animation: fadeIn ease 2s;
+}
+
+.custom_body{
+    background-color: #111111;
+}
+
+.navbar{
+    background-color: #666666;
+    border: 5px outset #999999;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    border-spacing: 5px;
+}
+
+.navbar-button{
+    position: relative;
+    background-color: #333333;
+    border: 5px outset #666666;
+    border-radius: 3px;
+    padding: 15px 32px;
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.navbar-button:after {
+    content: "";
+    background: #DDDDDD;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -32px!important; /* When navbar-padding changes so must this. */
+    margin-top: -140%;
+    opacity: 0;
+    transition: all 0.8s
+  }
+  
+.navbar-button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+.divbox{
+    background-color: #666666;
+    border: 5px outset #11bbbb;
+    border-radius: 5px;
+    margin: auto;
+    padding: 10px;
+    border-spacing: 5px;
+
+}
+
+body{
+    background-color: #111111;
+}
+
+header,h1,h2,h3,h4,h5,h6,p,a,footer {
+    color:azure;
+}
+
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}

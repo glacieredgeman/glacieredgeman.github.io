@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/glacieredgeman/glacieredgeman.github.io/issues"
   },
-  "homepage": "https://github.com/glacieredgeman/glacieredgeman.github.io#readme"
+  "homepage": "https://github.com/glacieredgeman/glacieredgeman.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2"
+  }
 }
