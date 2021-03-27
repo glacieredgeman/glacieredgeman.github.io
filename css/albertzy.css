@@ -2,7 +2,6 @@
 
 * {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    animation: fadeIn ease 2s;
 }
 
 .custom_body{
@@ -16,6 +15,7 @@
     margin: auto;
     padding: 10px;
     border-spacing: 5px;
+    animation: fadeIn ease 2s;
 }
 
 .navbar-button{
@@ -29,18 +29,31 @@
     text-decoration: none;
     overflow: hidden;
     cursor: pointer;
+    box-shadow: 0 0 0 2em rgba(#fff,0);
+    animation: fadeIn ease 2s;
 }
 
-.navbar-button:hover, 
-.navbar-button:focus {
-    color:aliceblue;
-    animation: pulse 1s;
-    box-shadow: 0 0 0 2em rgba(#fff,0);
+.navbar-button:hover{
+    animation: pulse 1s ease-out infinite;
+    box-shadow: 0 0 0 100em rgba(#fff,0);
+    display: block;
+    transition: all 0.8s
 }
 
 @keyframes pulse {
-  0% { box-shadow: 0 0 0 0 var(--hover); }
-}
+    0% {
+      -moz-box-shadow: 0 0 0 0 whitesmoke;
+      box-shadow: 0 0 0 0 whitesmoke;
+    }
+    70% {
+        -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+        box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+    }
+    100% {
+        -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+        box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+    }
+  }
 
 .navbar-button:after {
     content: "";
@@ -71,6 +84,11 @@
     border-spacing: 5px;
     text-align: center;
     display: grid;
+    animation: fadeIn ease 2s;
+}
+
+.divbox:hover{
+    animation: pulse 1s ease-out infinite;
 }
 
 .divbox-child{
@@ -83,6 +101,9 @@
     text-align: center;
 }
 
+.divbox-child:hover{
+    animation: pulse 1s ease-out infinite;
+}
 
 body{
     background-color: #111111;
