@@ -1,0 +1,23 @@
+{
+  "name": "glacieredgeman-dev",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glacieredgeman/glacieredgeman.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/glacieredgeman/glacieredgeman.github.io/issues"
+  },
+  "homepage": "https://github.com/glacieredgeman/glacieredgeman.github.io#readme",
+  "dependencies": {
+    "bootstrap": "^5.0.0-beta2"
+  }
+}
