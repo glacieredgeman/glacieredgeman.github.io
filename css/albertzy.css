@@ -80,7 +80,7 @@
     transition: 0s
 }
 
-.form-button{
+#form-button{
     position: relative;
     background-color: #333333;
     border: 5px outset #EEEEEE;
@@ -96,13 +96,13 @@
     animation: fadeIn ease 2s;
 }
 
-.form-button:hover{
+#form-button:hover{
     animation: pulse 1s ease-out infinite;
     box-shadow: 0 0 0 100em rgba(#fff,0);
     transition: all 0.8s
 }
 
-.form-button:after {
+#form-button:after {
     content: "";
     background: #DDDDDD;
     display: block;
@@ -115,7 +115,7 @@
     transition: all 0.8s
   }
   
-.form-button:active:after {
+#form-button:active:after {
     padding: 0;
     margin: 0;
     opacity: 1;
